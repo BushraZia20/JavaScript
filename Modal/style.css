@@ -1,0 +1,46 @@
+*{
+    background-color: chartreuse;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+#modalBox{
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+#modal-container{
+    /* display: none; */
+    height: 30%;
+    width: 40%;
+    background-color: white;
+    padding: 10px;
+
+
+}
+#modalBox2{
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+#modalBox3{
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.btn{
+    background-color: white;
+    height: 10vh;
+    width: 32vw;
+    font-size: 35px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 8px 9px 12px grey
+}
